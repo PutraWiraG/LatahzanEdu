@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+.roboto {
+    font-family: 'Roboto Condense';
+}
+
+.image {
+    width: 300px;
+}
+
+.imageXL {
+    width: 500px;
+}
+
+.profile img {
+    width: 200px;
+}
+
+header {
+    display: inline;
+}
+
+header img {
+    width: 500px;
+}
+
+nav {
+    background-color: #79DAE8;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.jumbroton h1 {
+    font-size: 50px;
+}
+
+.jumbroton {
+    padding: 60px;
+    background: radial-gradient(circle at top left, #0AA1DD, #79DAE8);    
+    text-align: left;
+    color: white;
+    border-radius: 0 0 85% 85% / 30%;
+}
+
+.flex {
+    flex-basis: 25%;
+}
+
+.enter {
+    margin-top: 90px;
+}
+
+.double {
+    flex-basis: 50%;
+}
+
+.triple {
+    flex-basis: 75%;
+}
+
+.margin {
+    margin: 10px;
+}
+
+.kotak {
+    background-color: #0AA1DD;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+}
+
+.kotakS {
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    color: #0AA1DD;
+}
+
+.kotakXL {
+    background-color: #0AA1DD;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+}
+
+.kotakXXL {
+    background-color: #0AA1DD;
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+}
+
+.jumbroton button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #79DAE8;
+    border: none;
+    cursor: pointer;
+}
+
+.jumbroton button a {
+    text-decoration: none;
+    color: white;
+}
+
+.jumbroton button:hover {
+    background-color: #242F9B;
+}
+
+.hai {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #79DAE8;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.coloumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+    text-align: left;
+}
+
+.row {
+    display: flex;
+}
+
+.row-icon {
+    display: flex;
+}
+
+.justify {
+    justify-content: center;
+}
+
+footer {
+    background-color: #0AA1DD;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.box {
+    width: 300px;
+    height: 500px;
+    background: radial-gradient(circle at top left, #0AA1DD, #79DAE8);    
+    border-radius: 150px 150px 0 0;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0, .3);
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.box img {
+    width: 250px;
+    margin-left: 27px;
+    margin-top: 5px;
+}
+
+.box h3 {
+    margin-left: 45px;
+    margin-top: 2px;
+}
+
+.box .nama {
+    font-weight: bold;
+}
+
+.box .desk {
+    font-size: 13px;
+}
+
+.box:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.font {
+    font-size: medium;
+}
+
+.kontak {
+    justify-content: center;
+}
+
+.boxS {
+    width: 350px;
+    height: 70px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0, .3);
+    margin-top: 10px;
+    border-radius: 50px 10px 10px 50px;
+    cursor: pointer;
+}
+
+.boxS:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.boxS i {
+    margin-left: 23px;
+    margin-top: 12px;
+    color: #0AA1DD;
+}
+
+@media screen and (max-width: 1000px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+    }
+
+    .justify {
+        align-items: center;
+    }
+    
+    .enter {
+        margin-top: 0;
+    }
+
+    .image {
+        width: 200px;
+    }
+
+    .profile img {
+        width: 300px;
+    }
+
+    .box {
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .jumbroton {
+        padding: 60px;
+        background: radial-gradient(circle at top left, #0AA1DD, #79DAE8);    
+        text-align: left;
+        color: white;
+        border-radius: 0 0 85% 85% / 10%;
+    }
+
+  }
